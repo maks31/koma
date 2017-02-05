@@ -55,9 +55,6 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener{
         // Set up the login form.
     }
 
-
-
-
     @Override
     public void onClick(View v) {
     int id =v.getId();
