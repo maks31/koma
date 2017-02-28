@@ -43,16 +43,19 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity implements OnClickListener{
 
-    @Bind(R.id.emailET)
     EditText emailET;
-    @Bind(R.id.passwordET)
     EditText passwordET;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        ButterKnife.bind(this);
         // Set up the login form.
+
+        emailET= (EditText) findViewById(R.id.emailET);
+        passwordET= (EditText) findViewById(R.id.passwordET);
+
+        Button signInBtn= (Button) findViewById(R.id.signInBtn);
+        signInBtn.setOnClickListener(this);
     }
 
     @Override

@@ -26,8 +26,17 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.android.support:design:25.1.1'
+
     compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:multidex:1.0.0'
     compile 'com.amazonaws:aws-android-sdk-core:2.3.8'
+    compile 'com.amazonaws:aws-android-sdk-core:2.3.8'
+    // ... other dependencies go here ...
+    compile 'com.amazonaws:aws-android-sdk-core:2.3.8'
+    // add the S3 SDK dependency
+    compile 'com.amazonaws:aws-android-sdk-s3:2.3.8'
+    // add the Cognito SDK dependency
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.3.8'
 
     testCompile 'junit:junit:4.12'
 }
