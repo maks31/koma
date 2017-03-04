@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.koma.logintest.LocationActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgc1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3dffffff"></View>
+
+    <LinearLayout
+        android:id="@+id/llMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/llCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnCrntLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="90dp"
+                android:layout_marginLeft="90dp"
+                android:layout_weight="0.65"
+                android:onClick="geoLocate"
+                android:background="@color/current_location"
+                android:drawableTop="@drawable/ic_map"
+
+                android:padding="4dp"
+                android:text="@string/bt_maps"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llZipcode"
+            android:layout_margin="0dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:id="@+id/tilZipcode"
+                android:textColor="#ffffff"
+                android:layout_margin="50dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etZipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/edit_text_curved"
+                    android:layout_marginRight="50dp"
+                    android:hint="@string/zipcode"
+                     />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

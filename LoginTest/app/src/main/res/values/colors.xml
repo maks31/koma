@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fbLogin_color">#3C5A99</color>
+    <color name="glogin_color">#C23524</color>
+    <color name="current_location">#7AC135</color>
+    <color name="post_add">#FE997D</color>
+    <color name="post_add_ring">#686290</color>
+    <color name="plus">#FFF</color>
+
+</resources>

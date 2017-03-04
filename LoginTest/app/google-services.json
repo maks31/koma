@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "640264346655",
+    "firebase_url": "https://koma-users.firebaseio.com",
+    "project_id": "koma-users",
+    "storage_bucket": "koma-users.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640264346655:android:f994c423716f0425",
+        "android_client_info": {
+          "package_name": "com.koma.logintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640264346655-gmrp9hqdpk3ch315dup7bu8qjsgbjabg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koma.logintest",
+            "certificate_hash": "8fac3644c999cf264c7c23eb8ec087e9976b75be"
+          }
+        },
+        {
+          "client_id": "640264346655-ucgo0snbu35r6g2b9tpn7put2u2ce8do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWpSN2wMG9XGvBSkaphp59IzkYQELsj1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640264346655-ucgo0snbu35r6g2b9tpn7put2u2ce8do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
